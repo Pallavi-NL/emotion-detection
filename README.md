@@ -2,10 +2,10 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Pallavi-NL/emotion-detection/blob/main/emotion_detection_project.ipynb)
 
-Overview-
+## Overview-
 This project analyzes a video file to detect and visualize the emotional behavior of a person over time using DeepFace and RNN (LSTM).
 
-Key Features-
+## Key Features-
 
 - **Video Upload**: Analyze emotions from uploaded videos
 - **DeepFace Emotion Recognition**: Detects 7 emotions (angry, happy, sad, etc.)
@@ -14,24 +14,30 @@ Key Features-
 - **RNN Modeling**: Predicts emotional sequence using LSTM
 - **PDF Report**: Generates downloadable summary report
 
-Libraries Used-
+## Libraries Used-
 - `deepface`, `tensorflow`, `opencv-python-headless`, `matplotlib`, `numpy`, `fpdf`
 
-How to Use-
+## How to Use-
 1. Click "Open in Colab" above 
 2. Upload a video when prompted
 3. Let the notebook analyze and visualize the results
 4. Optionally download a PDF report
 
-Sample Output-
+## Sample Output-
 
 > Emotion trends, captured frame collage, RNN predictions, and PDF generation
 
-PDF Report Sample (once generated)-
+## PDF Report Sample (once generated)-
 - Total duration analyzed
 - Dominant emotion
 - Frequency of each emotion
 - Behavior summary
 
-Acknowledgments-
+## Sample Video Used
+
+This is the input video that was analyzed using the emotion detection notebook.
+
+[Download Sample Video](Gen%20AI%20project%20video.mp4)
+
+## Acknowledgments-
 - Built using Google Colab, DeepFace, TensorFlow, and OpenCV
